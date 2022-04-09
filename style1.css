@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.row .head{
+    background-color: black;
+    color: wheat;
+    width: 35rem;
+    /* justify-content: center;
+    text-align: center; */
+    text-align: center;
+    border-style:dashed;
+    border-color: red;
+    border-radius: 20px;
+}
+
+/* .row .head:hover {
+    background-color: antiquewhite;
+    color: red;
+    cursor: pointer;
+} */
+
+.row .head h1{
+
+    font-weight: 500;
+    font-size: 2rem;
+    /* text-align: center; */
+    padding-top: 10px;
+    
+}
+
+.row .head p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.form-label {
+    font-size: 1.5rem;
+}
